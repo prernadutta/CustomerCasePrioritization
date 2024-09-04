@@ -1,0 +1,31 @@
+<aura:component >
+	<aura:attribute name="boatTypeList" type="String[]" default="['type1','type2','type3']"/>
+    <aura:attribute name="boats" type="String[]"  default="['Boat1','Boat2','Boat3']"/>
+    <aura:attribute name="boatData" type="String" default="BoatData is here"/>
+    <aura:attribute name="boatReviews" type="String[]" default="['rev1','rev2']"/>
+    <aura:attribute name="selectedBoatId" type="String"/>
+
+   
+	 <lightning:layout>
+        <lightning:layoutItem size="8">
+            <lightning:layout multipleRows="true">
+                <lightning:layoutItem size="12" flexibility="auto" padding="around-small">
+                    Hello
+                </lightning:layoutItem>
+                <lightning:layoutItem size="12" flexibility="auto" padding="around-small">
+                   Hello2
+                </lightning:layoutItem>
+            </lightning:layout>
+        </lightning:layoutItem>
+                <lightning:layoutItem size="4">
+                    <lightning:layout multipleRows="true">
+                        <lightning:layoutItem size="12" flexibility="auto" padding="around-small">
+                        Hello3
+                        </lightning:layoutItem>
+                         <lightning:layoutItem size="12" flexibility="auto" padding="around-small">
+                                Hello4
+                            </lightning:layoutItem>
+                    </lightning:layout>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>

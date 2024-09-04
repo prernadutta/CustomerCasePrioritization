@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:attribute name="UserName" type="String" default="Preru"/>
+	<p>Here is another component</p>
+    <h1> Your name is {!v.UserName}
+    </h1>
+</aura:component>

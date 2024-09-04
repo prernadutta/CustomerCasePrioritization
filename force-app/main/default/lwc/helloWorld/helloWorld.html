@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="HelloWorld" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+          <p>Helloo, {greeting}!</p>
+          <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+        </div>
+        <!-- Add the following div inside the lightning-card template -->
+        <div if:true={showTAndC} class="slds-p-top_medium">
+          <lightning-form-label class="slds-p-bottom_small" label="Terms and Conditions"></lightning-form-label>
+          <lightning-input type="checkbox" name="t_and_c" label="I accept the Terms and Conditions" onchange={handleTAndCChange}>
+          </lightning-input>
+        </div>
+        <!-- <div>
+          <lightning-checkbox label="Checkbox" checked></lightning-checkbox>
+        </div> -->
+        <!-- add another div with a dropdown of values -->
+        <!-- <div>
+          <lightning-combobox label="Combobox" value="Option 1" options={options}>
+          </lightning-combobox>
+        </div>
+        <div>
+          <lightning-datepicker label="Datepicker" value="2021-01-01"></lightning-datepicker>
+        </div> -->
+      </lightning-card>
+     
+</template>

@@ -1,0 +1,23 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >>
+    <aura:attribute name="Var1" type="String" default="test"/>
+    <aura:attribute name="newAcc" type="Account" default="{'sobjectType':'Account','Name':'TestAcc1','Balance':200000}"/>
+    <aura:handler name="init" value="{!this}" action ="{!c.doInit}"/>
+    <aura:attribute name="arrayDemo" type="String[]" default="['v1','v2','v3']"/>
+    <aura:attribute name="mapDemo" type="Map" default="{a:'Map1',b:'Map2'}"/>
+    <aura:attribute name="userData" type="LCDemo1Wrapper.WrapperTest"/>
+	<p>Hi Prerna!</p>	
+    <h1>
+        Component Value: {!v.Var1}
+    	<br></br>
+        Account Details are: <br></br>
+        Name: {!v.newAcc.Name}<br></br>
+        Balance: {!v.newAcc.Balance}
+        <hr/>
+        Array: {!v.arrayDemo[0]} <br></br>Length: {!v.arrayDemo.length}
+        <br></br>
+        Map Value: {!v.mapDemo.b}<br></br>
+        Wrapper Values: {!v.userData.myString1} &nbsp; {!v.userData.myInteger1}
+        <hr/>
+    </h1>
+    
+</aura:component>

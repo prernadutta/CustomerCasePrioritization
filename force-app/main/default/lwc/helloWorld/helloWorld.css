@@ -1,0 +1,76 @@
+/* add css border shadow for helloWorld.html */
+.slds-card__header {
+    border-bottom: 1px solid #dddbda;
+    box-shadow: 0 1px 0 0 #fafafa;
+}
+
+/* add css border shadow for helloWorld.html */
+.slds-card__body {
+    border-top: 1px solid #fafafa;
+    box-shadow: 0 1px 0 0 #fafafa;
+}
+
+/* add css for helloWorld.html */
+body.slds-theme_default {
+    background: transparent !important;
+}
+
+/* add css for helloWorld.html */
+.slds-theme_default .slds-card {
+    background-color: #fafafa;
+    border: 1px solid #dddbda;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* add css for helloWorld.html */
+.slds-theme_default .slds-card__header {
+    color: #06c;
+    padding: 0.75rem 1rem;
+}
+
+/* add css for helloWorld.html */
+.slds-theme_default .slds-card__header_link {
+    color: #06c;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    text-decoration: none;
+}
+
+/* add css for helloWorld.html */
+.slds-theme_default .slds-card__header_link:hover {
+    text-decoration: underline;
+}
+
+/* add css for helloWorld.html */
+.slds-theme_default .slds-card__header_link:focus {
+    outline: none;
+}
+
+/* add css for helloWorld.html */
+.slds-theme_default .slds-card__header_link:active {
+    color: #0070d2;
+}
+
+/* add css for helloWorld.html */
+.slds-theme_default .slds-card__header_title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+}
+
+/* add css for helloWorld.html */
+.slds-theme_default .slds-card__header_title_info {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+/* add css for helloWorld.html */
+.slds-theme_default .slds-card__header_icon {
+    color: #06c;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+}
+
+    
